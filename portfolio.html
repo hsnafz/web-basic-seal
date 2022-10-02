@@ -7,13 +7,20 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 style="color: navy;">Daftar Peserta Lomba Balap Kucing</h1>
-    <h2 style="color: grey;">Perayaan 100 Tahun Gang Haji Sa'an</h2>
+    <h1 style="color: green; font-family: Georgia, 'Times New Roman', Times, serif;" align="center">Pendaftaran Peserta Lomba Balap Kucing</h1>
+    <h2>
+        <style>
+            body {background-color:beige;}
+            h2 {color:red; 
+            font-family: 'Times New Roman', Times, serif;}
+        </style>
+        <align><center>Perayaan 100 Tahun Gang Haji Sa'an</center></align></h2>
+    <h3 style="color: orange; font-family: Georgia, 'Times New Roman', Times, serif;">Yok, ikut!</h3>
    <form>
     <P>Nama Kucing</P>
     <input type="text" name="nama kucing">
-    <p> Nama Cat Sitter</p>
-    <input type="text" name="nama cat sitter"
+    <p> Nama Yang Punya</p>
+    <input type="text" name="nama yang punya"
     <div>
         <p>Ras</p>
     </div>
@@ -21,10 +28,10 @@
     <label for="Domestik">Domestik</label>
     <input type="radio" name="Ras" id="Bukan Domestik">
     <label for="Bukan Domestik">Bukan Domestik</label>
-    <input type="radio" name="Ras" id="Mix Domestik">
-    <label for="Mix Domestik">Mix Domestik</label>
-    <input type="radio" name="Ras" id="Tidak Diketahui">
-    <label for="Tidak Diketahui">Tidak Diketahui</label>
+    <input type="radio" name="Ras" id="Campuran Domestik">
+    <label for="Campuran Domestik">Campuran Domestik</label>
+    <input type="radio" name="Ras" id="Nggak Tau">
+    <label for="Nggak Tau">Nggak Tau</label>
     <div>
         <p>Jenis Kelamin</p>
     </div>
@@ -32,25 +39,26 @@
     <label for="Betina">Betina</label>
     <input type="radio" name="Jenis Kelamin" id="Jenis Kelamin">
     <label for="Jantan">Jantan</label>
-    <input type="radio" name="Jenis Kelamin" id="Non Binary">
-    <label for="Non Binary">Non Binary</label>
+    <input type="radio" name="Jenis Kelamin" id="Nggak Tau">
+    <label for="Nggak Tau">Nggak Tau</label>
     <div>
         <br>
-        <input type="submit" value="Send">
-        <input type="reset" value="Reset">
+        <input type="submit" value="Kirim">
+        <input type="reset" value="Hapus">
         </br>
     </div>
    </form>
 
    <br>
-
+   <h3 style="color:orange; font-family:Georgia, 'Times New Roman', Times, serif">Calon Jawara</h3>
     <table border="1">
+        <link rel="stylesheet" href="style.css"
         <tr>
             <th>No</th>
             <th>Nama Kucing</th>
             <th>Ras</th>
             <th>Jenis Kelamin</th>
-            <th>Cat Sitter</th>
+            <th>Punya</th>
         </tr>
         <tr>
             <td>1</td>
@@ -69,7 +77,7 @@
         <tr>
             <td>3</td>
             <td>Cici</td>
-            <td>Tidak Diketahui</td>
+            <td>Nggak Tau</td>
             <td>Betina</td>
             <td>Adam</td>
         </tr>
